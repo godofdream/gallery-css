@@ -3,12 +3,12 @@
   color: rgba(255, 255, 255, 0.4);
 }
 
-.gallery .control-button:first-of-type,
-.gallery .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1),
-.gallery .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2),
-.gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3),
+.gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5),
 .gallery .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4),
-.gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
+.gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3),
+.gallery .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2),
+.gallery .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1),
+.gallery .control-button:first-of-type {
   color: white;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -27,9 +27,9 @@
   height: 100%;
   pointer-events: none;
   opacity: 0;
-  -webkit-transition: opacity .5s;
-  -o-transition: opacity .5s;
-  transition: opacity .5s;
+  -webkit-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  transition: opacity 0.5s;
 }
 
 .gallery .control-operator {
@@ -56,12 +56,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  14.3%, 50% {
+  14.2857142857%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  64.3%, 100% {
+  64.2857142857%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -73,12 +73,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  14.3%, 50% {
+  14.2857142857%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  64.3%, 100% {
+  64.2857142857%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -90,12 +90,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  14.3%, 50% {
+  14.2857142857%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  64.3%, 100% {
+  64.2857142857%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -106,11 +106,12 @@
     opacity: 0;
   }
 
-  14.3%, 50% {
+  14.2857142857%, 50% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  64.3%, 100% {
+  64.2857142857%, 100% {
     opacity: 0;
   }
 }
@@ -120,11 +121,12 @@
     opacity: 0;
   }
 
-  14.3%, 50% {
+  14.2857142857%, 50% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  64.3%, 100% {
+  64.2857142857%, 100% {
     opacity: 0;
   }
 }
@@ -134,11 +136,12 @@
     opacity: 0;
   }
 
-  14.3%, 50% {
+  14.2857142857%, 50% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  64.3%, 100% {
+  64.2857142857%, 100% {
     opacity: 0;
   }
 }
@@ -185,12 +188,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  9.5%, 33.3% {
+  9.5238095238%, 33.3333333333% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  42.9%, 100% {
+  42.8571428571%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -202,12 +205,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  9.5%, 33.3% {
+  9.5238095238%, 33.3333333333% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  42.9%, 100% {
+  42.8571428571%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -219,12 +222,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  9.5%, 33.3% {
+  9.5238095238%, 33.3333333333% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  42.9%, 100% {
+  42.8571428571%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -235,11 +238,12 @@
     opacity: 0;
   }
 
-  9.5%, 33.3% {
+  9.5238095238%, 33.3333333333% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  42.9%, 100% {
+  42.8571428571%, 100% {
     opacity: 0;
   }
 }
@@ -249,11 +253,12 @@
     opacity: 0;
   }
 
-  9.5%, 33.3% {
+  9.5238095238%, 33.3333333333% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  42.9%, 100% {
+  42.8571428571%, 100% {
     opacity: 0;
   }
 }
@@ -263,11 +268,12 @@
     opacity: 0;
   }
 
-  9.5%, 33.3% {
+  9.5238095238%, 33.3333333333% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  42.9%, 100% {
+  42.8571428571%, 100% {
     opacity: 0;
   }
 }
@@ -326,12 +332,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  7.1%, 25% {
+  7.1428571429%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  32.1%, 100% {
+  32.1428571429%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -343,12 +349,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  7.1%, 25% {
+  7.1428571429%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  32.1%, 100% {
+  32.1428571429%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -360,12 +366,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  7.1%, 25% {
+  7.1428571429%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  32.1%, 100% {
+  32.1428571429%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -376,11 +382,12 @@
     opacity: 0;
   }
 
-  7.1%, 25% {
+  7.1428571429%, 25% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  32.1%, 100% {
+  32.1428571429%, 100% {
     opacity: 0;
   }
 }
@@ -390,11 +397,12 @@
     opacity: 0;
   }
 
-  7.1%, 25% {
+  7.1428571429%, 25% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  32.1%, 100% {
+  32.1428571429%, 100% {
     opacity: 0;
   }
 }
@@ -404,11 +412,12 @@
     opacity: 0;
   }
 
-  7.1%, 25% {
+  7.1428571429%, 25% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  32.1%, 100% {
+  32.1428571429%, 100% {
     opacity: 0;
   }
 }
@@ -479,12 +488,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  5.7%, 20% {
+  5.7142857143%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  25.7%, 100% {
+  25.7142857143%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -496,12 +505,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  5.7%, 20% {
+  5.7142857143%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  25.7%, 100% {
+  25.7142857143%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -513,12 +522,12 @@
     color: rgba(255, 255, 255, 0.4);
   }
 
-  5.7%, 20% {
+  5.7142857143%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
 
-  25.7%, 100% {
+  25.7142857143%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -529,11 +538,12 @@
     opacity: 0;
   }
 
-  5.7%, 20% {
+  5.7142857143%, 20% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  25.7%, 100% {
+  25.7142857143%, 100% {
     opacity: 0;
   }
 }
@@ -543,11 +553,12 @@
     opacity: 0;
   }
 
-  5.7%, 20% {
+  5.7142857143%, 20% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  25.7%, 100% {
+  25.7142857143%, 100% {
     opacity: 0;
   }
 }
@@ -557,11 +568,12 @@
     opacity: 0;
   }
 
-  5.7%, 20% {
+  5.7142857143%, 20% {
     opacity: 1;
+    pointer-events: auto;
   }
 
-  25.7%, 100% {
+  25.7142857143%, 100% {
     opacity: 0;
   }
 }
@@ -638,6 +650,8 @@
   animation-delay: 26s;
 }
 
+/*# sourceMappingURL=gallery.css.map */
+
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
@@ -672,11 +686,13 @@
 
 .gallery .control-button {
   display: inline-block;
-  margin: 0 .02em;
+  margin: 0 0.02em;
   font-size: 3em;
   text-align: center;
   text-decoration: none;
-  -webkit-transition: color .1s;
-  -o-transition: color .1s;
-  transition: color .1s;
+  -webkit-transition: color 0.1s;
+  -o-transition: color 0.1s;
+  transition: color 0.1s;
 }
+
+/*# sourceMappingURL=gallery.theme.css.map */

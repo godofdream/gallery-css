@@ -3,7 +3,7 @@
   color: rgba(255, 255, 255, 0.4);
 }
 
-.gallery .control-button:first-of-type, .gallery .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), .gallery .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), .gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), .gallery .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), .gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5) {
+.gallery .control-operator:nth-of-type(5):target ~ .controls .control-button:nth-of-type(5), .gallery .control-operator:nth-of-type(4):target ~ .controls .control-button:nth-of-type(4), .gallery .control-operator:nth-of-type(3):target ~ .controls .control-button:nth-of-type(3), .gallery .control-operator:nth-of-type(2):target ~ .controls .control-button:nth-of-type(2), .gallery .control-operator:nth-of-type(1):target ~ .controls .control-button:nth-of-type(1), .gallery .control-button:first-of-type {
   color: white;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -21,7 +21,7 @@
   height: 100%;
   pointer-events: none;
   opacity: 0;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 .gallery .control-operator {
   display: none;
@@ -40,15 +40,11 @@
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
-  14.3%,
-  50% {
+  14.2857142857%, 50% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
-  64.3%,
-  100% {
+  64.2857142857%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -57,14 +53,11 @@
   0% {
     opacity: 0;
   }
-
-  14.3%,
-  50% {
+  14.2857142857%, 50% {
     opacity: 1;
+    pointer-events: auto;
   }
-
-  64.3%,
-  100% {
+  64.2857142857%, 100% {
     opacity: 0;
   }
 }
@@ -76,7 +69,6 @@
   pointer-events: auto;
   opacity: 1;
 }
-
 .items-2.autoplay .control-button {
   animation: controlAnimation-2 14s infinite;
 }
@@ -97,15 +89,11 @@
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
-  9.5%,
-  33.3% {
+  9.5238095238%, 33.3333333333% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
-  42.9%,
-  100% {
+  42.8571428571%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -114,14 +102,11 @@
   0% {
     opacity: 0;
   }
-
-  9.5%,
-  33.3% {
+  9.5238095238%, 33.3333333333% {
     opacity: 1;
+    pointer-events: auto;
   }
-
-  42.9%,
-  100% {
+  42.8571428571%, 100% {
     opacity: 0;
   }
 }
@@ -137,7 +122,6 @@
   pointer-events: auto;
   opacity: 1;
 }
-
 .items-3.autoplay .control-button {
   animation: controlAnimation-3 21s infinite;
 }
@@ -162,15 +146,11 @@
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
-  7.1%,
-  25% {
+  7.1428571429%, 25% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
-  32.1%,
-  100% {
+  32.1428571429%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -179,14 +159,11 @@
   0% {
     opacity: 0;
   }
-
-  7.1%,
-  25% {
+  7.1428571429%, 25% {
     opacity: 1;
+    pointer-events: auto;
   }
-
-  32.1%,
-  100% {
+  32.1428571429%, 100% {
     opacity: 0;
   }
 }
@@ -206,7 +183,6 @@
   pointer-events: auto;
   opacity: 1;
 }
-
 .items-4.autoplay .control-button {
   animation: controlAnimation-4 28s infinite;
 }
@@ -235,15 +211,11 @@
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
-
-  5.7%,
-  20% {
+  5.7142857143%, 20% {
     color: white;
     color: rgba(255, 255, 255, 0.8);
   }
-
-  25.7%,
-  100% {
+  25.7142857143%, 100% {
     color: #ccc;
     color: rgba(255, 255, 255, 0.4);
   }
@@ -252,14 +224,11 @@
   0% {
     opacity: 0;
   }
-
-  5.7%,
-  20% {
+  5.7142857143%, 20% {
     opacity: 1;
+    pointer-events: auto;
   }
-
-  25.7%,
-  100% {
+  25.7142857143%, 100% {
     opacity: 0;
   }
 }
@@ -283,7 +252,6 @@
   pointer-events: auto;
   opacity: 1;
 }
-
 .items-5.autoplay .control-button {
   animation: controlAnimation-5 35s infinite;
 }
@@ -310,3 +278,5 @@
 .items-5 .item:nth-of-type(5) {
   animation-delay: 26s;
 }
+
+/*# sourceMappingURL=gallery.css.map */
