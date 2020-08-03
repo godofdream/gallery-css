@@ -14,7 +14,7 @@
 	@keyframes galleryAnimation-#{$item-count} {
 	  0% { opacity: 0; }
 	  #{100% * $transition-duration / $total-duration},
-	  #{100% * $display-duration / $total-duration} { opacity: 1; }
+	  #{100% * $display-duration / $total-duration} { opacity: 1; pointer-events: auto; }
 	  #{100% * ($display-duration + $transition-duration) / $total-duration},
 	  100% { opacity: 0; }
 	}
